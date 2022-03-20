@@ -1,0 +1,1 @@
+execute if score @s bank_soul matches 32.. run function tyl:bank/withdrawal/32soul/run
