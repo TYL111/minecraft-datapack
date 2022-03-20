@@ -11,3 +11,4 @@ execute if score @s trigger matches 9 run function tyl:bank/withdrawal/16soul/ma
 execute if score @s trigger matches 10 run function tyl:bank/withdrawal/32soul/main 
 scoreboard players reset @s trigger
 scoreboard players enable @s trigger
+execute unless data entity @s SelectedItem.tag.credit_card run scoreboard players reset @s trigger
