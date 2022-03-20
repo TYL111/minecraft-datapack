@@ -1,1 +1,0 @@
-execute if score @s bank_soul matches 1.. run function tyl:bank/withdrawal/1soul/run
